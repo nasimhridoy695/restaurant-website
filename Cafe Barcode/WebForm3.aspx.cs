@@ -24,15 +24,34 @@ namespace Cafe_Barcode
         {
             SqlConnection conn = new SqlConnection("Data Source=desktop-8hp8d45\\sqlexpress;Initial Catalog=cafe;Integrated Security=True");
             conn.Open();
-            SqlCommand cmd = new SqlCommand("insert into registration" + "(username,email,password) values (@username,@email,@password)", conn);
-            cmd.Parameters.AddWithValue("@username", TextBox1.Text);
-            cmd.Parameters.AddWithValue("@email", TextBox2.Text);
-            cmd.Parameters.AddWithValue("@password", TextBox3.Text);
-            if((TextBox4.Text == TextBox3.Text) && (TextBox1.Text != null) && (TextBox2.Text != null) && (TextBox3.Text != null))
+            
+            if(!string.IsNullOrEmpty(TextBox1.Text) && !string.IsNullOrEmpty(TextBox2.Text) && !string.IsNullOrEmpty(TextBox3.Text) && TextBox4.Text == TextBox3.Text)
             {
-                cmd.ExecuteNonQuery();
-                conn.Close();
+                string query = "SELECT email FROM registration WHERE email = @Email";
+                SqlCommand command = new SqlCommand(query, conn);
+                command.Parameters.AddWithValue("@Email", TextBox2.Text);
+                SqlDataReader reader = command.ExecuteReader();
 
+                if (reader.HasRows)
+                {
+                    
+                }
+                else
+                {
+                    reader.Close();
+                    SqlCommand cmd = new SqlCommand("insert into registration" + "(username,email,password) values (@username,@email,@password)", conn);
+                    SqlCommand cmd2 = new SqlCommand("insert into login" + "(email,password) values (@email,@password)", conn);
+                    cmd.Parameters.AddWithValue("@username", TextBox1.Text);
+                    cmd.Parameters.AddWithValue("@email", TextBox2.Text);
+                    cmd.Parameters.AddWithValue("@password", TextBox3.Text);
+                    cmd2.Parameters.AddWithValue("@email", TextBox2.Text);
+                    cmd2.Parameters.AddWithValue("@password", TextBox3.Text);
+                    cmd.ExecuteNonQuery();
+                    cmd2.ExecuteNonQuery();
+                    conn.Close();
+                    Response.Redirect("Webform4.aspx");
+                }
+                
             }
             else
             {
