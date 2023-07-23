@@ -67,42 +67,259 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\assets\css\animate.css\css\animate.css" />
+    <Content Include="Admin\assets\css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Admin\assets\css\jquery.mCustomScrollbar.css" />
+    <Content Include="Admin\assets\css\morris.js\css\morris.css" />
+    <Content Include="Admin\assets\css\style.css" />
+    <Content Include="Admin\assets\datatables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Admin\assets\datatables\css\icon-font.min.css" />
+    <Content Include="Admin\assets\datatables\css\jquery.dataTables.min.css" />
+    <Content Include="Admin\assets\datatables\css\responsive.bootstrap4.min.css" />
+    <Content Include="Admin\assets\datatables\css\responsive.dataTables.min.css" />
+    <Content Include="Admin\assets\datatables\images\sort_asc.png" />
+    <Content Include="Admin\assets\datatables\images\sort_asc_disabled.png" />
+    <Content Include="Admin\assets\datatables\images\sort_both.png" />
+    <Content Include="Admin\assets\datatables\images\sort_desc.png" />
+    <Content Include="Admin\assets\datatables\images\sort_desc_disabled.png" />
+    <Content Include="Admin\assets\datatables\js\buttons.bootstrap4.min.js" />
+    <Content Include="Admin\assets\datatables\js\buttons.flash.min.js" />
+    <Content Include="Admin\assets\datatables\js\buttons.html5.min.js" />
+    <Content Include="Admin\assets\datatables\js\buttons.print.min.js" />
+    <Content Include="Admin\assets\datatables\js\datatable-setting.js" />
+    <Content Include="Admin\assets\datatables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Admin\assets\datatables\js\dataTables.buttons.min.js" />
+    <Content Include="Admin\assets\datatables\js\dataTables.responsive.min.js" />
+    <Content Include="Admin\assets\datatables\js\jquery.dataTables.min.js" />
+    <Content Include="Admin\assets\datatables\js\jszip.min.js" />
+    <Content Include="Admin\assets\datatables\js\pdfmake.min.js" />
+    <Content Include="Admin\assets\datatables\js\responsive.bootstrap4.min.js" />
+    <Content Include="Admin\assets\datatables\js\vfs_fonts.js" />
+    <Content Include="Admin\assets\icon\icofont\css\icofont.css" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.svg" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.svg" />
+    <Content Include="Admin\assets\icon\themify-icons\themify-icons.css" />
+    <Content Include="Admin\assets\images\auth\logo-dark.png" />
+    <Content Include="Admin\assets\images\auth\Logo-small-bottom.png" />
+    <Content Include="Admin\assets\images\auth\logo.png" />
+    <Content Include="Admin\assets\images\avatar-1.jpg" />
+    <Content Include="Admin\assets\images\avatar-2.jpg" />
+    <Content Include="Admin\assets\images\avatar-3.jpg" />
+    <Content Include="Admin\assets\images\avatar-4.jpg" />
+    <Content Include="Admin\assets\images\bg.jpg" />
+    <Content Include="Admin\assets\images\favicon.ico" />
+    <Content Include="Admin\assets\images\flags\ENGLISH.jpg" />
+    <Content Include="Admin\assets\images\flags\FRANCE.jpg" />
+    <Content Include="Admin\assets\images\flags\PORTO.jpg" />
+    <Content Include="Admin\assets\images\flags\SPAIN.jpg" />
+    <Content Include="Admin\assets\images\logo.png" />
+    <Content Include="Admin\assets\images\mega-menu\01.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\02.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\03.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\04.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\05.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\06.jpg" />
+    <Content Include="Admin\assets\images\pattern2.jpg" />
+    <Content Include="Admin\assets\images\user.png" />
+    <Content Include="Admin\assets\js\bootstrap-growl.min.js" />
+    <Content Include="Admin\assets\js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Admin\assets\js\classie.js" />
+    <Content Include="Admin\assets\js\classie\classie.js" />
+    <Content Include="Admin\assets\js\common-pages.js" />
+    <Content Include="Admin\assets\js\demo-12.js" />
+    <Content Include="Admin\assets\js\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="Admin\assets\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Admin\assets\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Admin\assets\js\jquery.mousewheel.min.js" />
+    <Content Include="Admin\assets\js\jquery\jquery.min.js" />
+    <Content Include="Admin\assets\js\modernizr\css-scrollbars.js" />
+    <Content Include="Admin\assets\js\modernizr\modernizr.js" />
+    <Content Include="Admin\assets\js\morris.js\morris.js" />
+    <Content Include="Admin\assets\js\pcoded.min.js" />
+    <Content Include="Admin\assets\js\popper.js\popper.min.js" />
+    <Content Include="Admin\assets\js\raphael\raphael.min.js" />
+    <Content Include="Admin\assets\js\script.js" />
+    <Content Include="Admin\assets\js\script.min.js" />
+    <Content Include="Admin\assets\js\SmoothScroll.js" />
+    <Content Include="Admin\assets\pages\accordion\accordion.js" />
+    <Content Include="Admin\assets\pages\accordion\accordion.min.js" />
+    <Content Include="Admin\assets\pages\chart\morris\morris-custom-chart.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\css\amchart.css" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\css\export.css" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\amcharts.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\custom-amchart.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\export.min.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\images\dragIconRoundBig.svg" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\images\dragIconRoundBigH.svg" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\light.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\serial.js" />
+    <Content Include="Admin\assets\pages\dashboard\custom-dashboard.js" />
+    <Content Include="Admin\assets\pages\google-maps\gmaps.min.js" />
+    <Content Include="Admin\assets\pages\google-maps\jquery.gmaps.js" />
+    <Content Include="Admin\assets\pages\icon-modal.js" />
+    <Content Include="Admin\assets\pages\notification\notification.css" />
+    <Content Include="Admin\assets\pages\notification\notification.js" />
+    <Content Include="Admin\assets\pages\todo\todo.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\amcharts.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\amcharts.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\ammap.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\ammap.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\continentsLow.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\continentsLow.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\gauge.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\gauge.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\light.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\light.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\pie.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\pie.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\serial.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\serial.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\worldLow.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\worldLow.min.js" />
+    <Content Include="Admin\Category.aspx" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\Product.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\images\about-img.png" />
+    <Content Include="css\images\client1.jpg" />
+    <Content Include="css\images\client2.jpg" />
+    <Content Include="css\images\f1.png" />
+    <Content Include="css\images\f2.png" />
+    <Content Include="css\images\f3.png" />
+    <Content Include="css\images\f4.png" />
+    <Content Include="css\images\f5.png" />
+    <Content Include="css\images\f6.png" />
+    <Content Include="css\images\f7.png" />
+    <Content Include="css\images\f8.png" />
+    <Content Include="css\images\f9.png" />
+    <Content Include="css\images\favicon.png" />
+    <Content Include="css\images\hero-bg.jpg" />
+    <Content Include="css\images\o1.jpg" />
+    <Content Include="css\images\o2.jpg" />
+    <Content Include="css\menucss\bootstrap.css" />
+    <Content Include="css\menucss\font-awesome.min.css" />
+    <Content Include="css\menucss\responsive.css" />
+    <Content Include="css\menucss\style.css" />
+    <Content Include="css\menujs\bootstrap.js" />
+    <Content Include="css\menujs\custom.js" />
+    <Content Include="css\menujs\jquery-3.4.1.min.js" />
+    <Content Include="css\style.css" />
+    <Content Include="Favourite.aspx" />
     <Content Include="fresh\bg.jpg" />
     <Content Include="fresh\index.html" />
     <Content Include="fresh\style.css" />
     <Content Include="Global.asax" />
+    <Content Include="img\about-1.jpg" />
+    <Content Include="img\about-2.jpg" />
+    <Content Include="img\about-3.jpg" />
+    <Content Include="img\about-4.jpg" />
+    <Content Include="img\bg-hero.jpg" />
+    <Content Include="img\hero.png" />
+    <Content Include="img\menu-1.jpg" />
+    <Content Include="img\menu-2.jpg" />
+    <Content Include="img\menu-3.jpg" />
+    <Content Include="img\menu-4.jpg" />
+    <Content Include="img\menu-5.jpg" />
+    <Content Include="img\menu-6.jpg" />
+    <Content Include="img\menu-7.jpg" />
+    <Content Include="img\menu-8.jpg" />
+    <Content Include="img\team-1.jpg" />
+    <Content Include="img\team-2.jpg" />
+    <Content Include="img\team-3.jpg" />
+    <Content Include="img\team-4.jpg" />
+    <Content Include="img\testimonial-1.jpg" />
+    <Content Include="img\testimonial-2.jpg" />
+    <Content Include="img\testimonial-3.jpg" />
+    <Content Include="img\testimonial-4.jpg" />
+    <Content Include="img\video.jpg" />
+    <Content Include="js\main.js" />
+    <Content Include="lib\animate\animate.css" />
+    <Content Include="lib\animate\animate.min.css" />
+    <Content Include="lib\counterup\counterup.min.js" />
+    <Content Include="lib\easing\easing.js" />
+    <Content Include="lib\easing\easing.min.js" />
+    <Content Include="lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="lib\owlcarousel\owl.carousel.js" />
+    <Content Include="lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="lib\tempusdominus\css\tempusdominus-bootstrap-4.css" />
+    <Content Include="lib\tempusdominus\css\tempusdominus-bootstrap-4.min.css" />
+    <Content Include="lib\tempusdominus\js\moment-timezone.min.js" />
+    <Content Include="lib\tempusdominus\js\moment.min.js" />
+    <Content Include="lib\tempusdominus\js\tempusdominus-bootstrap-4.js" />
+    <Content Include="lib\tempusdominus\js\tempusdominus-bootstrap-4.min.js" />
+    <Content Include="lib\waypoints\links.php" />
+    <Content Include="lib\waypoints\waypoints.min.js" />
+    <Content Include="lib\wow\wow.js" />
+    <Content Include="lib\wow\wow.min.js" />
     <Content Include="login\login.html" />
     <Content Include="login\style.css" />
+    <Content Include="ResetPass.aspx" />
     <Content Include="Tfiles\Images\backImg.jpg" />
     <Content Include="Tfiles\Images\frontImg.jpg" />
     <Content Include="Tfiles\index.html" />
     <Content Include="Tfiles\style.css" />
-    <Content Include="User\default.aspx" />
-    <Content Include="User\Login-register.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="WebForm4.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="ForgotPassword.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Favourite.aspx.cs">
+      <DependentUpon>Favourite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Favourite.aspx.designer.cs">
+      <DependentUpon>Favourite.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="ResetPass.aspx.cs">
+      <DependentUpon>ResetPass.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\Login-register.aspx.cs">
-      <DependentUpon>Login-register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\Login-register.aspx.designer.cs">
-      <DependentUpon>Login-register.aspx</DependentUpon>
+    <Compile Include="ResetPass.aspx.designer.cs">
+      <DependentUpon>ResetPass.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
@@ -139,8 +356,40 @@
     <Compile Include="WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".vs\slnx.sqlite" />
+    <Content Include=".vs\VSWorkspaceState.json" />
+    <Content Include=".vs\Your cafe\FileContentIndex\be459f35-addd-464f-8fc0-519d091e5f70.vsidx" />
+    <Content Include=".vs\Your cafe\v17\.wsuo" />
+    <Content Include="lib\owlcarousel\LICENSE" />
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.eot" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.ttf" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.woff" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.eot" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.ttf" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.woff" />
+    <Content Include="Admin\assets\datatables\fonts\ionicons.ttf" />
+    <Content Include="Admin\assets\datatables\fonts\ionicons.woff" />
+    <Content Include="Admin\assets\datatables\fonts\themify.ttf" />
+    <Content Include="Admin\assets\datatables\fonts\themify.woff" />
+    <Content Include="css\menucss\style.css.map" />
+    <Content Include="css\menucss\style.scss" />
     <None Include="packages.config" />
     <Content Include="User\User.Master" />
     <None Include="Web.Debug.config">
@@ -152,7 +401,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Category\" />
+    <Folder Include="Images\Product\" />
     <Folder Include="Models\" />
+    <Folder Include="scss\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

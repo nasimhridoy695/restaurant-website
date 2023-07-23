@@ -6,27 +6,28 @@
 <head runat="server">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Registration or Sign Up form in HTML CSS | CodingLab </title>
+    <title>Sign Up | Tasty Bites</title>
     <link rel="stylesheet" href="fresh/style.css">
 </head>
-<body>
+<body style="background-image: url('fresh/reg-bg.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
     <div class="wrapper">
     <h2>Registration</h2>
     <form id="form1" action="#" runat="server">
         <div class="input-box">
-            <asp:TextBox ID="TextBox1" placeholder="enter username" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" placeholder="enter username" runat="server" required="true"></asp:TextBox>
             <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
    ControlToValidate="TextBox1" ErrorMessage="Please enter a value for the Name field"></asp:RequiredFieldValidator>--%>
 
       </div>
       <div class="input-box">
-             <asp:TextBox ID="TextBox2" placeholder="enter email" runat="server"></asp:TextBox>
+             <asp:TextBox ID="TextBox2" placeholder="enter email" TextMode="Email" runat="server" required="true"></asp:TextBox>
+                
       </div>
       <div class="input-box">
-          <asp:TextBox ID="TextBox3" placeholder="enter password" runat="server"></asp:TextBox>
+          <asp:TextBox ID="TextBox3" placeholder="enter password" TextMode="Password" runat="server" required="true"></asp:TextBox>
       </div>
       <div class="input-box">
-          <asp:TextBox ID="TextBox4" placeholder="confirm password" runat="server"></asp:TextBox>
+          <asp:TextBox ID="TextBox4" placeholder="confirm password" TextMode="Password" runat="server" required="true"></asp:TextBox>
       </div>
       
       <div class="input-box button">
